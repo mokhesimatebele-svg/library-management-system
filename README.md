@@ -1,16 +1,69 @@
-# React + Vite
+Library Hub — Community Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Description
 
-Currently, two official plugins are available:
+Library Hub is a web-based library management system developed using React for a community library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The system allows administrators and librarians to manage books, monitor stock availability, manage library members, and record borrowing and returning transactions.
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Book Management
+- Add new books with title, author, genre, ISBN, and quantity.
+- Update existing book information.
+- Delete books.
+- Search and filter available books.
 
-## Expanding the ESLint configuration
+Availability Management
+- Monitor available book quantities.
+- Add stock when new books arrive.
+- Deduct stock when books are borrowed.
+- Restore stock when books are returned.
+- Highlight books with low stock.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User Management
+- Register and log in to the system.
+- Manage user accounts.
+- Assign Admin, Librarian, and Member roles.
+- Add, update, and delete users through the Admin account.
+
+Transactions
+- Record book borrowing and returning.
+- View transaction history.
+- Track borrowed and returned books.
+
+Dashboard
+- Display library statistics.
+- Show book availability.
+- Identify books with low stock.
+
+Technologies Used
+
+- React
+- JavaScript
+- HTML and CSS
+- React Router
+- React Hooks
+- Local Storage
+- Vite
+
+How to Run the Project
+
+1. Download or clone the repository.
+2. Open the project folder in a terminal.
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local address displayed in the terminal.
+
+Data Storage
+
+The application uses browser Local Storage to store library data. Data is stored locally in the browser rather than in an online database.
+
+MANES: Matebele Mokhesi
+Student id: 901020542
